@@ -155,11 +155,11 @@ or
 sudo apt install love
 ```
 
-### Python and Lua
-https://eev.ee/blog/2016/04/30/embedding-lua-vs-python/
-https://stackoverflow.com/questions/4527261/how-could-i-embed-lua-into-python-3-x
-http://labix.org/lunatic-python
-https://pypi.org/project/lupa/0.9/
+### Python and Lua Links:
+* https://eev.ee/blog/2016/04/30/embedding-lua-vs-python/
+* https://stackoverflow.com/questions/4527261/how-could-i-embed-lua-into-python-3-x
+* http://labix.org/lunatic-python
+* https://pypi.org/project/lupa/0.9/
 
 ### Install GO Language v1.12
 https://golang.org/dl/
@@ -193,6 +193,7 @@ sudo apt-get install unetbootin
 # or
 sudo /etc/init.d/apache2 restart
 ```
+
 ### Disable Touchpad
 ```bash
 xinput set-prop <id> "Device Enabled" 0
@@ -307,13 +308,13 @@ sudo apt install exfat-fuse exfat-utils
 for x in /sys/devices/system/cpu/*/cpufreq/; do echo 1200000 | sudo tee $x/scaling_max_freq; done
 sudo apt install aptitude
 sudo aptitude install cpufrequtils
-https://wiki.debian.org/HowTo/CpuFrequencyScaling
 ```
 
 ### INSTALL ATOM IDE ON UBUNTU 18
 [Atom IDE Menu Font Not-Visible](https://github.com/atom/atom/issues/18535)
-
+```bash
 wget -O atom-amd64.deb https://atom.io/download/deb
+```
 
 ### INSTALL ATOM IDE ON LINUX MINT
 ```bash
