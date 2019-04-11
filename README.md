@@ -84,9 +84,9 @@ man {SOME_COMMAND}
 #### Enter Python Interpreter:
 ```bash
 python3
-or
+# ..or for Python v2.x
 python
-Press CTRL+Z to exit
+# Press CTRL+Z to exit
 ```
 
 #### "History" Command and Grep to find specific command you did before:
